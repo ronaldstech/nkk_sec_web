@@ -5,6 +5,8 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
 import Academics from './components/Academics';
+import News from './components/News';
+import Events from './components/Events';
 import Sports from './components/Sports';
 import Footer from './components/Footer';
 
@@ -42,6 +44,8 @@ function App() {
         <Hero />
         <About />
         <Academics />
+        <News />
+        <Events />
         <Sports />
         <Footer />
       </Box>
