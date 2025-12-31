@@ -234,10 +234,10 @@ const News = () => {
                                 color: 'white',
                                 borderColor: 'rgba(255,255,255,0.2)',
                                 borderRadius: '100px',
-                                px: 10,
-                                py: 2,
+                                px: { xs: 4, md: 10 },
+                                py: { xs: 1.5, md: 2 },
                                 fontWeight: 800,
-                                fontSize: '1.1rem',
+                                fontSize: { xs: '0.9rem', md: '1.1rem' },
                                 transition: 'all 0.4s ease',
                                 '&:hover': {
                                     borderColor: 'primary.light',

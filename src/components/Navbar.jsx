@@ -64,7 +64,7 @@ const Navbar = () => {
         borderBottom: scrolled ? '1px solid rgba(255, 255, 255, 0.08)' : 'none',
         transition: 'all 0.4s cubic-bezier(0.4, 0, 0.2, 1)',
         zIndex: 1100,
-        height: scrolled ? '70px' : '90px',
+        height: { xs: scrolled ? '60px' : '70px', md: scrolled ? '70px' : '90px' },
         justifyContent: 'center'
       }}
     >

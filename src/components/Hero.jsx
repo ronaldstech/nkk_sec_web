@@ -23,9 +23,10 @@ const Hero = () => {
 
     return (
         <Box id="home" component="section" sx={{
-            height: '100vh',
+            minHeight: '100vh',
             display: 'flex',
             alignItems: 'center',
+            pt: { xs: '70px', md: 0 }, // Account for fixed navbar on mobile
             position: 'relative',
             overflow: 'hidden',
             backgroundColor: '#0c111e'
@@ -159,9 +160,9 @@ const Hero = () => {
                                 sx={{
                                     background: 'linear-gradient(135deg, #38bdf8, #0284c7)',
                                     borderRadius: '50px',
-                                    px: 6,
-                                    py: 2,
-                                    fontSize: '1.1rem',
+                                    px: { xs: 4, md: 6 },
+                                    py: { xs: 1.5, md: 2 },
+                                    fontSize: { xs: '0.9rem', md: '1.1rem' },
                                     boxShadow: '0 10px 20px rgba(2, 132, 199, 0.3)',
                                     '&:hover': {
                                         background: 'linear-gradient(135deg, #7dd3fc, #0369a1)',
@@ -181,9 +182,9 @@ const Hero = () => {
                                     color: 'white',
                                     borderColor: 'rgba(255, 255, 255, 0.4)',
                                     borderRadius: '50px',
-                                    px: 6,
-                                    py: 2,
-                                    fontSize: '1.1rem',
+                                    px: { xs: 4, md: 6 },
+                                    py: { xs: 1.5, md: 2 },
+                                    fontSize: { xs: '0.9rem', md: '1.1rem' },
                                     backdropFilter: 'blur(5px)',
                                     '&:hover': {
                                         borderColor: 'white',
